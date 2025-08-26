@@ -13,6 +13,7 @@ jobs:
     - name: Set up MemKernel as a module (M-OUT) with specified name
       run: |
         curl -LSs "https://raw.githubusercontent.com/Poko-Apps/MemKernel/main/kernel/setup.sh" | bash -s M miatoll
+        curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh" | bash -s nongki
 
     - name: Android kernel build
       uses: lemniskett/android-kernel-actions@master
