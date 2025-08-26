@@ -24,7 +24,7 @@ jobs:
         arch: arm64
         compiler: clang/14
         defconfig: vendor/miatoll-perf_defconfig
-        image: Image.gz-dtb
+        image: Image.gz
 
     - name: kernelandmodule
       uses: actions/upload-artifact@v4
